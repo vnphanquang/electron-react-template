@@ -9,10 +9,10 @@ const App = () => {
   })
 
   return (
-    <React.Fragment>
+    <div className="app">
       <div className="text-red-500 bg-blue-500 hover:bg-green-700">Hello React!</div>
       <Test/>
-    </React.Fragment>
+    </div>
   )
 }
 

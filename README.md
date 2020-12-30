@@ -23,4 +23,5 @@
 - [ ] multiple windows
 - [ ] custom tray windows
 - [ ] ipc
+- [ ] i18n
 
