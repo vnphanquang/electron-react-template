@@ -1,0 +1,28 @@
+{
+  "root": true,
+  "extends": [],
+  "plugins": ["import"],
+  "rules": {
+  },
+  "settings": {
+    "import/resolver": {
+      "alias": {
+        "map": [
+          ["@assets",   "./public"],
+          ["@shared",   "./src/shared"],
+          ["@renderer/config", "./src/renderer/config/config.development.ts"],
+          ["@renderer", "./src/renderer"],
+          ["@main/config", "./src/main/config/config.development.ts"],
+          ["@main",     "./src/main"]
+        ]
+      },
+      "extensions": [".ts", "tsx", "js"]
+    }
+  },
+  "parserOptions": {
+    "ecmaVersion": 6
+  },
+  "env": {
+    "es6": true
+  }
+}
